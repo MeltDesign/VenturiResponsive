@@ -1,0 +1,243 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation | Welcome</title>
+    
+    <!-- IE 8 or below -->   
+<!--[if lt IE 9]>
+<link rel="stylesheet" href="css/IEfoundation.css" />
+<![endif]-->
+
+
+      <link rel="stylesheet" href="custom.css" />
+      <link rel="stylesheet" href="css/slider.css"/>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <script src="js/modernizr.js"></script>
+   
+  
+  </head>
+  <body>
+  
+
+<header>
+   <div class="row">
+   <h1>Orbit Slider</h1>
+   <p>Different Responsive slider Options</p>
+   <p>For more info on how to configure <a href="http://foundation.zurb.com/docs/components/orbit.html">http://foundation.zurb.com/docs/components/orbit.html</a></p>
+   
+   </div>
+</header> 
+
+ <section>
+</section> 
+  
+  
+  
+  <div class="row centered">
+   <h3>Image Slider</h3>
+   <p>Full width - set into the grid to make full screen</p>
+   
+   </div> 
+  
+    
+    <div class="row">
+      <div class="grid-12 columns">
+     
+     
+     <ul class="example-orbit" data-orbit>
+  <li>
+    <img src="images/holder-image-wide.gif" alt="slide 1" />
+    <div class="orbit-caption">
+      Caption One.
+    </div>
+  </li>
+  <li>
+    <img src="images/holder-image-wide.gif" alt="slide 1" />
+    <div class="orbit-caption">
+      Caption Two.
+    </div>
+  </li>
+  <li>
+    <img src="images/holder-image-wide.gif" alt="slide 1" />
+    <div class="orbit-caption">
+      Caption Three.
+    </div>
+  </li>
+</ul>
+     
+
+      </div>
+    </div>
+    
+
+   <div class="row centered">
+   <h3>Full Width Content Slider</h3>
+   <p>Full width - set the row to <strong>.rowWide</strong> to make full screen</p>
+   
+   </div> 
+    
+    
+    
+    
+<div class="rowWide sliderWrapper">
+     
+      <div class="grid-12 column nopad">
+      
+<ul class="example-orbit-content" data-orbit>
+  
+  <li data-orbit-slide="headline-1">
+
+  
+  
+    <div class="grid-4 columns">
+      <img src="images/holder-image-small.gif" alt="Image Description" />
+    </div>
+    <div class="grid-8 columns">
+      <h2>Headline 1</h2>
+      <h3>Subheadline</h3>
+      <p>Content text to go here</p>
+    </div>
+  </li>
+  
+  <li data-orbit-slide="headline-2">
+    <div>
+      <h2>Headline 2</h2>
+      <h3>Subheadline</h3>
+    </div>
+  </li>
+  <li data-orbit-slide="headline-3">
+    <div>
+      <h2>Headline 3</h2>
+      <h3>Subheadline</h3>
+    </div>
+  </li>
+</ul>
+
+</div>
+
+
+
+<div class="row centered">
+
+<h2>Deep Slider Links</h2>
+<p>add this to link to individual slides outside the slider container</p>
+
+<a data-orbit-link="headline-1" class="small button">
+  Goto Slide 1
+</a>
+<a data-orbit-link="headline-2" class="small button">
+  Goto Slide 2
+</a>
+<a data-orbit-link="headline-3" class="small button">
+  Goto Slide 3
+</a>
+
+</div>
+       
+</div><!--row-->
+
+
+
+<div class="row">
+
+<div class="row centered">
+
+<h2>Multiple Content</h2>
+<p>Multiple slides within one slide - for multiple elements like portfolios or personal pages or team ect</p>
+
+</div><!--row-->
+      
+     
+<div class="grid-12 column nopad">
+      
+	<ul class="example-orbit-content" data-orbit>
+  
+  <li data-orbit-slide="headline-1">
+    
+    <div class="grid-4 columns">
+      <h2>Box 1</h2>
+      <h3>Subheadline</h3>
+      <p>Content text to go here</p>
+    </div>
+    
+    <div class="grid-4 columns">
+      <h2>Box 2</h2>
+      <h3>Subheadline</h3>
+      <p>Content text to go here</p>
+    </div>
+    
+    <div class="grid-4 columns">
+      <h2>Box 3</h2>
+      <h3>Subheadline</h3>
+      <p>Content text to go here</p>     
+    </div>
+    
+  </li>
+  
+  <li data-orbit-slide="headline-2">
+    
+    <div class="grid-4 columns">
+      <h2>Box 1</h2>
+      <h3>Subheadline</h3>
+      <p>Content text to go here</p>
+    </div>
+    
+    <div class="grid-4 columns">
+      <h2>Box 2</h2>
+      <h3>Subheadline</h3>
+      <p>Content text to go here</p>
+    </div>
+    
+    <div class="grid-4 columns">
+      <h2>Box 3</h2>
+      <h3>Subheadline</h3>
+      <p>Content text to go here</p>     
+    </div>
+    
+  </li>
+</ul>
+
+</div>
+
+
+   
+  
+
+    
+</div><!--row-->
+
+
+
+
+
+
+    
+    <script src="js/jquery.js"></script>
+    <!--<script src="js/foundation.min.js"></script>-->
+    <script src="js/foundation/foundation.js"></script>
+    <script src="js/foundation/foundation.orbit.js"></script>
+    <script src="js/foundation/foundation.interchange.js"></script>
+    
+    
+    
+   <script>
+      $(document).foundation({
+  orbit: {
+    animation: 'fade',
+    timer_speed: 8000,
+    pause_on_hover: true,
+    animation_speed: 500,
+    navigation_arrows: true,
+    bullets: true
+  	}
+	});
+    </script>
+    
+
+    
+   
+    
+  </body>
+</html>

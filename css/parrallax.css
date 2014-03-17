@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*--parallax--*/
+  
+  /* General Slides */ 
+
+.parallax{
+	background-attachment: fixed;
+	width:100%;
+	height:auto;
+	position: relative;
+	padding:140px 0;
+}
+
+
+/* Slide 2 */ 
+
+#parallaxHold{
+	background-image:url(../images/footprints.png);
+	background-color:#f68f67;
+	color:#ffffff;
+	min-height: 500px;
+}
+#slide2 h1 {
+	font-size: 3.8em;
+	letter-spacing: -3px;
+	line-height: 0px;
+	color:#ffffff;
+	font-weight: 700;
+}
+#slide2 h2 {
+	font-size: 2em;
+	color: #ffffff;
+	line-height: 0px;
+	padding-bottom:20px;
+	font-weight: 400;
+}
+
