@@ -1,0 +1,279 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="mainPages.master.cs" Inherits="SitefinityWebApp.mainPages" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+ 
+  <link rel="shortcut icon" href="~/Sitefinity/WebsiteTemplates/Venturi/App_Themes/homeTheme/images/favicon.ico" type="image/x-icon"/>
+
+
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-35504346-2']);
+  _gaq.push(['_setDomainName', 'venturi-group.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+
+    <div id="header">
+	
+
+     <div id="headerMiddle">
+     
+     
+     <a href="http://www.venturi-group.com" title="Venturi-Group" class="logo"></a>
+	
+
+<div id="mediaLogos">
+
+<a href="http://pinterest.com/venturigroup/" title="Pin us on Pinterest" target="_blank" class="mediaLogo6"></a>
+<a href="http://www.youtube.com/user/VenturiGroup1"  title="Watch us on Youtube" target="_blank" class="mediaLogo5"></a>
+<a href="https://plus.google.com/u/0/113672056657237210102/posts" target="_blank" title="Join our Circle on Google Plus" class="mediaLogo4"></a>
+<a href="http://www.linkedin.com/company/venturi-ltd/products" title="Connect with us on Linkedin" target="_blank" class="mediaLogo3"></a>
+<a href="https://twitter.com/#!/venturi_ltd"  title="Follow us on Twitter" target="_blank" class="mediaLogo2"></a>
+<a href="http://www.facebook.com/VenturiGroup" target="_blank" title="Like us on Facebook" class="mediaLogo1"></a>
+</div>
+
+
+ <div class="phoneNumber"></div>  
+ 
+ 
+
+<div id="mainNav">
+
+<asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server"></asp:ContentPlaceHolder>
+
+</div>
+
+</div><!--headerMiddle-->
+</div><!--header-->
+
+<div id="Middle">
+
+
+
+
+
+<div id="whiteMain">
+	<div class="main">
+
+
+
+
+
+
+    
+    
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder5" runat="server"></asp:ContentPlaceHolder>
+ 
+
+    
+    </div><!--main-->
+</div><!--whiteMain-->
+
+
+</div><!--middle-->
+
+ 
+ 
+ <div class="footer">
+
+	<div class="wrapper footerMiddle">
+    
+     <div class="footerLeft">
+     <a href="http://www.christie.nhs.uk/" target="_blank" rel="nofollow" ><img src="http://www.venturi-group.com/images/default-album/2013/11/24/charity-christie.gif?Status=Master" alt="" width="72" height="74"/></a>
+     <a href="http://www.apsco.org/" target="_blank" rel="nofollow" ><img src="http://www.venturi-group.com/images/default-album/2013/11/24/charity-aps.gif?Status=Master" alt="" width="63" height="74"/></a>
+     </div>
+    
+    <ul>
+     <li><a href="http://www.venturi-group.com">Home</a></li>
+     <li><a href="http://www.venturi-group.com/our-services">Our Services</a></li>
+     <li><a href="http://www.venturi-group.com/latest-jobs">Latest Jobs</a></li>
+
+    </ul>
+    
+     <ul>
+     <li><a href="http://www.venturi-group.com/careers">Careers</a></li>
+     <li><a href="http://www.venturi-group.com/international">Netherland</a></li>
+     <li><a href="http://www.venturi-group.com/our-people">Our People</a></li>
+
+    </ul>
+    
+       <ul>
+     <li><a href="http://www.venturi-group.com/videos">Video</a></li>
+     <li><a href="http://www.venturi-group.com/candidates">Candidates</a></li>
+     <li><a href="http://www.venturi-group.com/clients">Clients</a></li>
+    </ul>
+    
+    <ul>
+     <li><a href="http://www.venturi-group.com/news" title="Recruitment News">News</a></li>
+     <li><a href="http://www.it-recruitment-blog.com/" title="Recruitment Blog">Blog</a></li>
+     <li><a href="http://www.venturi-group.com/contact" title="Contact Venturi" rel="nofollow">Contact</a></li>
+    </ul>
+    
+     
+     <div class="footerRight">
+     
+     
+     <ul class="footerList">
+     <li><a href="mailto:info@venturi-group.com">info@venturi-group.com</a></li>
+     <li class="bigText"><a href="0044+ (0)161 850 1155">0044+ (0)161 850 1155</a></li>
+     <li class="bigText"><a href="0203 137 7005">0203 137 7005</a></li>
+     
+    </ul>
+    
+    
+     <div class="social"> 
+     	<a href="http://www.venturi-group.com/videos" rel="nofollow" target="_blank" class="pinLink"></a>      
+        <a href="http://www.youtube.com/user/VenturiGroup1" rel="nofollow" target="_blank" class="youLink"></a>
+        <a href="https://plus.google.com/u/0/+Venturi-group/posts" rel="nofollow" target="_blank" class="gLink"></a>
+        <a href="https://plus.google.com/u/0/+Venturi-group/posts" rel="nofollow" target="_blank" class="inLink"></a>
+        <a href="https://www.facebook.com/VenturiGroup" rel="nofollow" target="_blank" class="fbLink"></a>
+        <a href="https://twitter.com/venturi_ltd" rel="nofollow" target="_blank" class="twittLink"></a>
+</div>
+</div>
+    
+  <div class="footerFull">
+  Company Registration Number: 06920794, Registered Address: Peel House, The Downs, Altrincham ,Cheshire WA14 2PX
+  </div>  
+
+
+</div>
+
+</div>   
+
+
+
+
+
+
+
+
+</form>
+
+
+
+
+ 
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script type="text/javascript">
+
+$(document).ready(function() {
+	
+	$("ul.gallery li ").hover(function() { //On hover...
+		
+		var thumbOver = $(this).find("img").attr("src"); //Get image url and assign it to 'thumbOver'
+		
+		//Set a background image(thumbOver) on the <a> tag 
+		$(this).find(".thumb").css({'background' : 'url(' + thumbOver + ') no-repeat center bottom'});
+		//Fade the image to 0 
+		$(this).find("span").stop().fadeTo('normal', 0 , function() {
+			$(this).hide() //Hide the image after fade
+		}); 
+	} , function() { //on hover out...
+		//Fade the image to 1 
+		$(this).find("span").stop().fadeTo('normal', 1).show();
+	});
+
+});
+
+</script>
+<script type="text/javascript" src="JS/jquery.featureList-1.0.0.js"></script>
+
+	<script type="text/javascript" language="javascript">
+	    $(document).ready(function () {
+
+	        $.featureList(
+				$("#tabs li a"),
+				$("#output li"), {
+				    start_item: 0
+				}
+			);
+
+	        $.featureList(
+				$("#tabsTest li a"),
+				$("#outputTest li"), {
+				    start_item: 0
+				}
+			);
+
+	        /*
+			
+	        // Alternative
+
+			
+	        $('#tabs li a').featureList({
+	        output			:	'#output li',
+	        start_item		:	1
+	        });
+
+	        */
+
+	    });
+	</script> 
+
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            //Default Action
+            $(".tab_content").hide(); //Hide all content
+            $("ul.tabs li:first").addClass("active").show(); //Activate first tab
+            $(".tab_content:first").show(); //Show first tab content
+
+            //On Click Event
+            $("ul.tabs li").click(function () {
+                $("ul.tabs li").removeClass("active"); //Remove any "active" class
+                $(this).addClass("active"); //Add "active" class to selected tab
+                $(".tab_content").hide(); //Hide all tab content
+                var activeTab = $(this).find("a").attr("href"); //Find the rel attribute value to identify the active tab + content
+                $(activeTab).fadeIn(); //Fade in the active content
+                return false;
+            });
+
+            $("a.innerLink").click(function () {
+                $("ul.tabs li ").removeClass("active"); //Remove any "active" class
+                $(this).addClass("active"); //Add "active" class to selected tab
+                $(".tab_content").hide(); //Hide all tab content
+                var activeTab = $(this).attr("href"); //Find the rel attribute value to identify the active tab + content
+                $(activeTab).fadeIn(); //Fade in the active content
+                return false;
+            });
+
+        });
+</script>
+
+</body>
+</html>
+
+
